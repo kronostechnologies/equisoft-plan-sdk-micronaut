@@ -1,0 +1,15 @@
+build
+target
+
+.gradle
+
+.idea
+*.iml
+*.ipr
+*.iws
+*.log
+.project
+.settings
+.classpath
+
+hs_err_pid*
