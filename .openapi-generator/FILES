@@ -24,8 +24,6 @@ src/main/java/com/equisoft/plan/sdk/models/OrganizationsListOrganizationsRespons
 src/main/java/com/equisoft/plan/sdk/models/OrganizationsOrganization.java
 src/main/java/com/equisoft/plan/sdk/models/UsersListUsersResponse.java
 src/main/java/com/equisoft/plan/sdk/models/UsersUser.java
-src/main/java/com/equisoft/plan/sdk/models/V1CopyFnaResponse.java
-src/main/java/com/equisoft/plan/sdk/models/V1CopyFnaResponseData.java
 src/main/java/com/equisoft/plan/sdk/models/V1ErrorResponse.java
 src/main/java/com/equisoft/plan/sdk/models/V1ErrorResponseData.java
 src/main/java/com/equisoft/plan/sdk/package-info.java
