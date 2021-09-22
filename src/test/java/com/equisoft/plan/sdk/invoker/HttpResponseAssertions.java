@@ -12,7 +12,7 @@ import io.micronaut.http.HttpResponse;
 import io.micronaut.http.HttpStatus;
 import io.micronaut.http.client.exceptions.HttpClientResponseException;
 
-@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2021-09-21T12:38:38.727482Z[Etc/UTC]")
+@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2021-09-22T12:58:09.684363Z[Etc/UTC]")
 
 public class HttpResponseAssertions {
 
