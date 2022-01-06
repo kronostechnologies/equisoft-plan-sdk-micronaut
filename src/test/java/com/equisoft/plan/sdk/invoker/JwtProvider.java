@@ -5,7 +5,7 @@ import javax.inject.Singleton;
 import io.micronaut.context.annotation.Requires;
 import io.micronaut.security.token.jwt.signature.SignatureGeneratorConfiguration;
 
-@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-01-06T18:38:03.347057Z[Etc/UTC]")
+@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-01-06T21:43:29.819903Z[Etc/UTC]")
 
 @Requires(beans = SignatureGeneratorConfiguration.class)
 @Singleton
