@@ -14,7 +14,7 @@ import io.micronaut.context.annotation.BootstrapContextCompatible;
 import io.micronaut.core.convert.ConversionService;
 import io.micronaut.core.convert.TypeConverterRegistrar;
 
-@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-01-19T20:51:58.758125Z[Etc/UTC]")
+@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-01-20T14:19:25.621523Z[Etc/UTC]")
 
 @Singleton
 @BootstrapContextCompatible
