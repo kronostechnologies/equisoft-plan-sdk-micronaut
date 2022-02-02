@@ -5,7 +5,7 @@ import com.equisoft.plan.sdk.models.*;
 @javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-02-02T20:26:40.882703Z[Etc/UTC]")
 
 @com.equisoft.plan.sdk.invoker.Client
-public interface CommandApiClient extends CommandApi {
+public interface PlansApiClient extends PlansApi {
 
 
 }
