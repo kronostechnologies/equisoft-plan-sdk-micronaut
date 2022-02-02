@@ -9,8 +9,6 @@ src/main/java/com/equisoft/plan/sdk/CommandApi.java
 src/main/java/com/equisoft/plan/sdk/CommandApiClient.java
 src/main/java/com/equisoft/plan/sdk/OrganizationsApi.java
 src/main/java/com/equisoft/plan/sdk/OrganizationsApiClient.java
-src/main/java/com/equisoft/plan/sdk/PlansApi.java
-src/main/java/com/equisoft/plan/sdk/PlansApiClient.java
 src/main/java/com/equisoft/plan/sdk/PlansV1Api.java
 src/main/java/com/equisoft/plan/sdk/PlansV1ApiClient.java
 src/main/java/com/equisoft/plan/sdk/UsersApi.java
@@ -24,8 +22,6 @@ src/main/java/com/equisoft/plan/sdk/models/CmdCopyFNAResponse.java
 src/main/java/com/equisoft/plan/sdk/models/ErrorResponse.java
 src/main/java/com/equisoft/plan/sdk/models/OrganizationsListOrganizationsResponse.java
 src/main/java/com/equisoft/plan/sdk/models/OrganizationsOrganization.java
-src/main/java/com/equisoft/plan/sdk/models/PlansListPlansResponse.java
-src/main/java/com/equisoft/plan/sdk/models/PlansPlan.java
 src/main/java/com/equisoft/plan/sdk/models/UsersListUsersResponse.java
 src/main/java/com/equisoft/plan/sdk/models/UsersUser.java
 src/main/java/com/equisoft/plan/sdk/models/V1ErrorResponse.java
@@ -35,8 +31,6 @@ src/test/java/com/equisoft/plan/sdk/CommandApiTestClient.java
 src/test/java/com/equisoft/plan/sdk/CommandApiTestSpec.java
 src/test/java/com/equisoft/plan/sdk/OrganizationsApiTestClient.java
 src/test/java/com/equisoft/plan/sdk/OrganizationsApiTestSpec.java
-src/test/java/com/equisoft/plan/sdk/PlansApiTestClient.java
-src/test/java/com/equisoft/plan/sdk/PlansApiTestSpec.java
 src/test/java/com/equisoft/plan/sdk/PlansV1ApiTestClient.java
 src/test/java/com/equisoft/plan/sdk/PlansV1ApiTestSpec.java
 src/test/java/com/equisoft/plan/sdk/UsersApiTestClient.java
