@@ -1,6 +1,6 @@
 package com.equisoft.plan.sdk.models;
 
-@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-03-31T21:03:46.693351843Z[Etc/UTC]")
+@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-04-01T13:10:10.837630774Z[Etc/UTC]")
 
 @io.micronaut.core.annotation.Introspected
 public class CmdCopyFNA {
