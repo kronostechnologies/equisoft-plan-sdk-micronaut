@@ -1,7 +1,7 @@
 package com.equisoft.plan.sdk;
 
 /** Test for {@link PlansV1Api}. */
-@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-05-12T14:28:43.663765959Z[Etc/UTC]")
+@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-05-12T16:00:22.686809987Z[Etc/UTC]")
 
 public interface PlansV1ApiTestSpec { 
 
