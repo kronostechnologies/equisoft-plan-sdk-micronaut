@@ -12,7 +12,7 @@ import com.nimbusds.jwt.SignedJWT;
 import io.micronaut.security.token.config.TokenConfiguration;
 import io.micronaut.security.token.jwt.signature.SignatureGeneratorConfiguration;
 
-@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-05-13T11:55:45.487258094Z[Etc/UTC]")
+@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-05-13T12:13:52.660601913Z[Etc/UTC]")
 
 public class JwtBuilder {
 

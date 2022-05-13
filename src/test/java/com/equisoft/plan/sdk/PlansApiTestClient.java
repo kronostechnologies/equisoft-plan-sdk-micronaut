@@ -2,7 +2,7 @@ package com.equisoft.plan.sdk;
 import com.equisoft.plan.sdk.models.*;
 
 /** Test client for {@link PlansApi}. **/
-@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-05-13T11:55:45.487258094Z[Etc/UTC]")
+@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-05-13T12:13:52.660601913Z[Etc/UTC]")
 
 @io.micronaut.http.client.annotation.Client("${test.clientId:/}")
 public interface PlansApiTestClient { 
