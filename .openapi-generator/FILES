@@ -28,6 +28,7 @@ src/main/java/com/equisoft/plan/sdk/models/PlansListPlansResponse.java
 src/main/java/com/equisoft/plan/sdk/models/PlansPlan.java
 src/main/java/com/equisoft/plan/sdk/models/UsersListUsersResponse.java
 src/main/java/com/equisoft/plan/sdk/models/UsersUser.java
+src/main/java/com/equisoft/plan/sdk/models/UsersUserContext.java
 src/main/java/com/equisoft/plan/sdk/models/V1ErrorResponse.java
 src/main/java/com/equisoft/plan/sdk/models/V1ErrorResponseData.java
 src/main/java/com/equisoft/plan/sdk/package-info.java
