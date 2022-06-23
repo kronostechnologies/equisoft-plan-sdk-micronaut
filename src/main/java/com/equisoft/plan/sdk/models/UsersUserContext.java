@@ -3,7 +3,7 @@ package com.equisoft.plan.sdk.models;
 @javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-06-23T04:49:56.186774943Z[Etc/UTC]")
 
 @io.micronaut.core.annotation.Introspected
-public class UsersUser {
+public class UsersUserContext {
 
 	public static final String JSON_PROPERTY_ID = "id";
 	public static final String JSON_PROPERTY_USER_TYPE = "userType";
@@ -37,9 +37,10 @@ public class UsersUser {
 	@com.fasterxml.jackson.annotation.JsonInclude(com.fasterxml.jackson.annotation.JsonInclude.Include.ALWAYS)
 	private java.lang.Boolean isAdmin;
 
+	@javax.validation.constraints.NotNull
 	@com.fasterxml.jackson.annotation.JsonProperty(JSON_PROPERTY_IS_ACTIVE)
-	@com.fasterxml.jackson.annotation.JsonInclude(com.fasterxml.jackson.annotation.JsonInclude.Include.NON_NULL)
-	private @io.micronaut.core.annotation.Nullable java.lang.Boolean isActive;
+	@com.fasterxml.jackson.annotation.JsonInclude(com.fasterxml.jackson.annotation.JsonInclude.Include.ALWAYS)
+	private java.lang.Boolean isActive;
 
 
 	// methods
@@ -52,7 +53,7 @@ public class UsersUser {
 		if (object == null || getClass() != object.getClass()) {
 			return false;
 		}
-		UsersUser other = (UsersUser) object;
+		UsersUserContext other = (UsersUserContext) object;
 		return java.util.Objects.equals(id, other.id)
 				&& java.util.Objects.equals(userType, other.userType)
 				&& java.util.Objects.equals(name, other.name)
@@ -69,7 +70,7 @@ public class UsersUser {
 	@Override
 	public String toString() {
 		return new StringBuilder()
-				.append("UsersUser[")
+				.append("UsersUserContext[")
 				.append("id=").append(id).append(",")
 				.append("userType=").append(userType).append(",")
 				.append("name=").append(name).append(",")
@@ -82,7 +83,7 @@ public class UsersUser {
 
 	// fluent
 
-	public UsersUser id(java.lang.Integer newId) {
+	public UsersUserContext id(java.lang.Integer newId) {
 		this.id = newId;
 		return this;
 	}
@@ -91,7 +92,7 @@ public class UsersUser {
 		return id;
 	}
 
-	public UsersUser userType(java.lang.String newUserType) {
+	public UsersUserContext userType(java.lang.String newUserType) {
 		this.userType = newUserType;
 		return this;
 	}
@@ -100,7 +101,7 @@ public class UsersUser {
 		return userType;
 	}
 
-	public UsersUser name(java.lang.String newName) {
+	public UsersUserContext name(java.lang.String newName) {
 		this.name = newName;
 		return this;
 	}
@@ -109,7 +110,7 @@ public class UsersUser {
 		return name;
 	}
 
-	public UsersUser email(java.lang.String newEmail) {
+	public UsersUserContext email(java.lang.String newEmail) {
 		this.email = newEmail;
 		return this;
 	}
@@ -118,7 +119,7 @@ public class UsersUser {
 		return email;
 	}
 
-	public UsersUser isAdmin(java.lang.Boolean newIsAdmin) {
+	public UsersUserContext isAdmin(java.lang.Boolean newIsAdmin) {
 		this.isAdmin = newIsAdmin;
 		return this;
 	}
@@ -127,12 +128,12 @@ public class UsersUser {
 		return isAdmin;
 	}
 
-	public UsersUser isActive(@io.micronaut.core.annotation.Nullable java.lang.Boolean newIsActive) {
+	public UsersUserContext isActive(java.lang.Boolean newIsActive) {
 		this.isActive = newIsActive;
 		return this;
 	}
 
-	public @io.micronaut.core.annotation.Nullable java.lang.Boolean isActive() {
+	public java.lang.Boolean isActive() {
 		return isActive;
 	}
 
@@ -142,7 +143,7 @@ public class UsersUser {
 		return id;
 	}
 
-	public UsersUser setId(java.lang.Integer newId) {
+	public UsersUserContext setId(java.lang.Integer newId) {
 		this.id = newId;
 		return this;
 	}
@@ -152,7 +153,7 @@ public class UsersUser {
 		return userType;
 	}
 
-	public UsersUser setUserType(java.lang.String newUserType) {
+	public UsersUserContext setUserType(java.lang.String newUserType) {
 		this.userType = newUserType;
 		return this;
 	}
@@ -162,7 +163,7 @@ public class UsersUser {
 		return name;
 	}
 
-	public UsersUser setName(java.lang.String newName) {
+	public UsersUserContext setName(java.lang.String newName) {
 		this.name = newName;
 		return this;
 	}
@@ -172,7 +173,7 @@ public class UsersUser {
 		return email;
 	}
 
-	public UsersUser setEmail(java.lang.String newEmail) {
+	public UsersUserContext setEmail(java.lang.String newEmail) {
 		this.email = newEmail;
 		return this;
 	}
@@ -182,17 +183,17 @@ public class UsersUser {
 		return isAdmin;
 	}
 
-	public UsersUser setIsAdmin(java.lang.Boolean newIsAdmin) {
+	public UsersUserContext setIsAdmin(java.lang.Boolean newIsAdmin) {
 		this.isAdmin = newIsAdmin;
 		return this;
 	}
 
 
-	public @io.micronaut.core.annotation.Nullable java.lang.Boolean getIsActive() {
+	public java.lang.Boolean getIsActive() {
 		return isActive;
 	}
 
-	public UsersUser setIsActive(@io.micronaut.core.annotation.Nullable java.lang.Boolean newIsActive) {
+	public UsersUserContext setIsActive(java.lang.Boolean newIsActive) {
 		this.isActive = newIsActive;
 		return this;
 	}
