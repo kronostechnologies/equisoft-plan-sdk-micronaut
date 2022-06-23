@@ -1,7 +1,7 @@
 package com.equisoft.plan.sdk;
 import com.equisoft.plan.sdk.models.*;
 
-@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-06-22T19:20:38.085670791Z[Etc/UTC]")
+@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-06-23T04:43:10.720586906Z[Etc/UTC]")
 
 public interface UsersApi {
 
@@ -11,8 +11,4 @@ public interface UsersApi {
 	io.micronaut.http.HttpResponse<UsersUser> getUser(
 			@io.micronaut.http.annotation.PathVariable(name = "id")
 			java.lang.Integer id);
-
-	@io.micronaut.http.annotation.Get("/fna/api/v2/userContext")
-	@io.micronaut.http.annotation.Produces({ "application/json" })
-	io.micronaut.http.HttpResponse<UsersUserContext> getUserContext();
 }
