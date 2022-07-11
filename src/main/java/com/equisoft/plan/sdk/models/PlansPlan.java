@@ -1,6 +1,6 @@
 package com.equisoft.plan.sdk.models;
 
-@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-07-08T14:35:48.891408054Z[Etc/UTC]")
+@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-07-11T12:37:57.865508525Z[Etc/UTC]")
 
 @io.micronaut.core.annotation.Introspected
 public class PlansPlan {
