@@ -1,7 +1,7 @@
 package com.equisoft.plan.sdk;
 import com.equisoft.plan.sdk.models.*;
 
-@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-07-16T14:53:38.988064301Z[Etc/UTC]")
+@javax.annotation.processing.Generated(value = "com.equisoft.openapi.generator.micronaut.MicronautClientGenerator", date = "2022-07-16T14:54:30.042933566Z[Etc/UTC]")
 
 public interface UsersApi {
 
